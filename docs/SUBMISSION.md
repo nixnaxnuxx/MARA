@@ -6,7 +6,7 @@
 **Submission date:** 19 July 2026  
 **Author:** FAA 
 **Repository:** https://github.com/nixnaxnuxx/MARA
-**Live application:** [Add deployment URL if available]
+**Live application:** https://mara-hacknation-hackathon.streamlit.app/
 
 ---
 
@@ -308,22 +308,4 @@ The public repository is designed to reproduce the application using aggregate a
 Full model retraining requires authorized access to the restricted source dataset, compliance with its terms, research dependencies, and approved preprocessing, training, calibration, and evaluation scripts.
 
 The final held-out test results must remain frozen.
-
-## 18. Final Submission Checklist
-
-- [ ] Repository URL added
-- [ ] Deployment URL added when available
-- [ ] README reviewed
-- [ ] MODEL_CARD.md reviewed
-- [ ] SUBMISSION.md reviewed
-- [ ] All Python files compile
-- [ ] Submission audit reports zero failures
-- [ ] All five app sections load
-- [ ] Downloadable scenario report opens correctly
-- [ ] Chart-values CSV opens correctly
-- [ ] No API key is tracked
-- [ ] No restricted dataset file is tracked
-- [ ] No participant-level prediction file is tracked
-- [ ] Final ZIP is created from committed Git files
-- [ ] Final ZIP is tested in a clean folder
 
