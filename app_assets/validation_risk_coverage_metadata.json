@@ -1,0 +1,15 @@
+{
+  "display_name": "Validation risk-coverage curve",
+  "source_split": "validation",
+  "source_file": "checkpoint7a_validation_prediction_sets.csv",
+  "total_validation_days": 949,
+  "sensor_available_days": 925,
+  "missing_sensor_days": 24,
+  "frozen_threshold": 0.62,
+  "threshold_minimum": 0.5,
+  "threshold_maximum": 0.95,
+  "threshold_count": 46,
+  "contains_participant_rows": false,
+  "contains_identifiers": false,
+  "interpretation": "Exploratory aggregate derived from validation predictions. The held-out test set was not used to generate this curve."
+}

@@ -1,0 +1,53 @@
+{
+  "project_name": "MOSAIC-Phase",
+  "display_name": "PhaseWise",
+  "task": "Four-phase menstrual-phase estimation from passive wearable signals for unseen participants.",
+  "research_only": true,
+  "medical_disclaimer": "Research prototype only. It must not be used for diagnosis, fertility decisions, contraception, or treatment.",
+  "evaluation": {
+    "held_out_participants": 7,
+    "held_out_participant_days": 959,
+    "participant_level_split": true,
+    "policy_frozen_before_test": true,
+    "test_evaluated_once": true
+  },
+  "model": {
+    "predictive_modalities": [
+      "Resting heart rate",
+      "Wrist temperature"
+    ],
+    "both_sensor_router": "Equal probability fusion",
+    "rhr_only_router": "Resting-heart-rate expert",
+    "temperature_only_router": "Temperature expert",
+    "neither_router": "No-call",
+    "probability_temperature": 0.9012109084090542,
+    "top_two_threshold": 0.62,
+    "singleton_outputs_enabled": false
+  },
+  "overall_test_results": {
+    "sensor_coverage": 0.97288842544317,
+    "unrestricted_top1_accuracy": 0.3440514469453376,
+    "unrestricted_top1_balanced_accuracy": 0.34764899013514244,
+    "unrestricted_top1_macro_f1": 0.34174287262079717,
+    "unrestricted_top2_coverage": 0.6291532690246516,
+    "final_decision_coverage": 0.4483837330552659,
+    "final_pair_set_coverage": 0.6651162790697674,
+    "final_no_call_rate": 0.5516162669447341,
+    "no_calls_missing_sensors": 26,
+    "no_calls_insufficient_evidence": 503
+  },
+  "approved_language": {
+    "primary_result": "On unseen participants, the frozen policy returned a two-phase plausible set on 44.84% of participant-days. The true phase was contained in that set for 66.51% of those decisions.",
+    "abstention_result": "The system returned no-call on 55.16% of participant-days when predictive evidence was unavailable or insufficient.",
+    "top1_context": "The unrestricted router achieved 34.76% balanced accuracy, compared with a four-class random reference of approximately 25%.",
+    "limitation": "Performance varied across phases and study intervals. The output is not a clinical or fertility prediction."
+  },
+  "prohibited_claims": [
+    "Clinically validated",
+    "Reliable fertility detection",
+    "Ovulation confirmation",
+    "Diagnostic accuracy",
+    "Safe for contraception decisions",
+    "Guaranteed uncertainty coverage"
+  ]
+}
