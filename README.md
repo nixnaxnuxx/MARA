@@ -493,6 +493,41 @@ Future deployment would require additional external validation, fairness evaluat
 
 ---
 
+### Source
+
+This project uses **mcPHASES version 1.0.0**, a restricted-access
+multimodal menstrual-health dataset hosted on PhysioNet [1].
+
+mcPHASES contains longitudinal physiological, hormonal, metabolic,
+wearable-derived, and self-reported menstrual-health information.
+The dataset includes data from 42 Canadian young adults who
+menstruate [1,2].
+
+The raw dataset is not distributed with this repository. Access
+requires authorization through PhysioNet and compliance with the
+mcPHASES data-use agreement.
+
+## References
+
+1. Lin, B., Li, J. Y., Kalani, K., Truong, K., & Mariakakis, A.
+   (2025). *mcPHASES: A Dataset of Physiological, Hormonal, and
+   Self-reported Events and Symptoms for Menstrual Health Tracking
+   with Wearables* (Version 1.0.0). PhysioNet. RRID:SCR_007345.
+   https://doi.org/10.13026/zx6a-2c81
+
+2. Lin, G., Li, J. Y., Kalani, K., Truong, K. N., &
+   Mariakakis, A. (2026). A longitudinal dataset of physiological,
+   hormonal, metabolic, and self-reported menstrual health data.
+   *Scientific Data, 13*, 411.
+   https://doi.org/10.1038/s41597-026-06805-3
+
+3. Goldberger, A. L., Amaral, L. A. N., Glass, L.,
+   Hausdorff, J. M., Ivanov, P. C., Mark, R. G., Mietus, J. E.,
+   Moody, G. B., Peng, C.-K., & Stanley, H. E. (2000).
+   PhysioBank, PhysioToolkit, and PhysioNet: Components of a new
+   research resource for complex physiologic signals.
+   *Circulation, 101*(23), e215–e220.
+   
 ## Documentation
 
 - docs/MODEL_CARD.md — technical, ethical, safety, and evaluation documentation
