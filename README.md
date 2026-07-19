@@ -11,7 +11,7 @@ MARA is a research prototype for wearable menstrual-phase estimation under chang
 ## Links
 
 - **Live demo:** https://mara-hacknation-hackathon.streamlit.app/
-- **Source repository:** https://github.com/nixnaxnuxx/
+- **Source repository:** https://github.com/nixnaxnuxx/MARA
 - **Model card:** docs/MODEL_CARD.md
 - **Submission summary:** docs/SUBMISSION.md
 
@@ -540,7 +540,7 @@ mcPHASES data-use agreement.
 
 **Author:** FAA
 **Challenge:** Hack-Nation Challenge 5  
-**Repository:** https://github.com/nixnaxnuxx/
+**Repository:** https://github.com/nixnaxnuxx/MARA
 **Live demo:** https://mara-hacknation-hackathon.streamlit.app/
 
 ---
